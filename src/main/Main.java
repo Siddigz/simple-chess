@@ -14,9 +14,11 @@ public class Main {
         frame.setLocationRelativeTo(null);
 
         Board board = new Board();
+        board.addPieces();
         frame.add(board);
 
         frame.setVisible(true);
+
 
 
 
